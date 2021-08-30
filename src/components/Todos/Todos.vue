@@ -8,9 +8,9 @@
         />
       </template>
       <template #suffix>
-        <n-button type="error" @click="delTodo(todo.id)">delete</n-button>
+        <n-button type="error" @click="delTodo(todo.id)">删除</n-button>
       </template>
-      <n-thing title="Thing" title-extra="extra" description="description">
+      <n-thing>
         <span :class="{ finished: todo.isFinished }">
           {{ todo.text }}
         </span>

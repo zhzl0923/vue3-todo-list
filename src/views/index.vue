@@ -3,16 +3,16 @@
     <add-todo></add-todo>
     <n-space style="margin-top: 10px">
       <router-link to="/all">
-        <n-tag type="info" checkable :checked="path == '/all'">all</n-tag>
+        <n-tag type="info" checkable :checked="path == '/all'">所有</n-tag>
       </router-link>
       <router-link to="/unfinished">
         <n-tag type="info" checkable :checked="path == '/unfinished'">
-          unfinished
+          未完成
         </n-tag>
       </router-link>
       <router-link to="/finished">
         <n-tag type="info" checkable :checked="path == '/finished'">
-          finished
+          已完成
         </n-tag>
       </router-link>
     </n-space>
